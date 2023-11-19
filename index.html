@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html, body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #responder {
+            text-align: center;
+        }
+    </style>
+</head>
+<script src="https://unpkg.com/htmx.org@1.9.6"></script>
+<body>
+    <div>
+        <div>
+            <form id="myForm" action="/">
+                <label for="youtube_url">Youtube url:</label>
+                <input type="text" id="youtube_url" name="youtube_url"><br><br>
+                <input type="submit" value="Submit" hx-post="/transcript" hx-swap="beforeend" hx-target="#responder">
+            </form>
+        </div>
+        <br />
+        <div id="responder"></div>
+    </div>
+</body>
+</html>

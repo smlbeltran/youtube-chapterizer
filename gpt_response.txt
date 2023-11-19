@@ -1,0 +1,16 @@
+Give me 5 chapter titles and with timestamp format of MM::SS returning it as json objects:
+
+GPT RESPONSE
+[
+  {"text": "[Music] (00:00)"},
+  {"text": "thanks I was wondering how I was going (00:20)"},
+  {"text": "to manage that no problem it's fun (00:40)"},
+  {"text": "moving right yeah but the bills aren't (01:00)"},
+  {"text": "drafty can help with that drafty works (01:20)"}
+]
+
+
+
+[{'role': 'system', 'content': ''}, {'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Hello, how can I assist you today?'}, {'role': 'user', 'content': 'give me 5 chapters of a book'}, {'role': 'assistant', 'content': 'Sure, here are five chapters from the book "The Alchemist" by Paulo Coelho:\n\n1. Chapter 1: The Shepherd and the Boy\n2. Chapter 2: The Alchemist\'s Journey\n3. Chapter 3: The Meeting with the Old Man\n4. Chapter 4: The Abandonment of Santiago\n5. Chapter 5: The Alchemist\'s Dream\n\nPlease let me know if there is anything else I can help you with!'}, {'role': 'user', 'content': 'thank you'}, {'role': 'assistant', 'content': "You're welcome! Is there anything else I can assist you with?"}]
+
+[{'role': 'system', 'content': ''}, {'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Hello, how can I assist you today?'}, {'role': 'user', 'content': 'write me a short poem'}, {'role': 'assistant', 'content': "Sure, here's a short poem for you:\n\nIn the heart of winter, snowflakes dance\nTheir delicate beauty, a fleeting glance\nA moment to cherish, to hold dear\nBefore they melt away, disappear."}, {'role': 'user', 'content': 'thank you'}, {'role': 'assistant', 'content': "You're welcome! Is there anything else I can help with?"}]
